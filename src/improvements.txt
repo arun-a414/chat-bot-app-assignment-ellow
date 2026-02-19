@@ -1,0 +1,3 @@
+I could have used real Backend APIs in place of current mock APIs if provided more time
+The look and feel of whole chat bot can be beautified
+I could create a dummy first landing page and keeping chatbot as sticky one and on clicking it a real chat interface can be popping
