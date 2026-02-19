@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Message } from "../types/message";
+import type { Message } from "../types/message";
 import { simulateBotResponse } from "../services/mockApi";
 import { MessageQueue } from "../utils/messageQueue";
 
