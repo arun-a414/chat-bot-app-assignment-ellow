@@ -1,3 +1,9 @@
+/**
+ * ChatWindow renders:
+ * - All messages
+ * - Typing indicator (when bot is responding)
+ */
+
 import type { Message } from "../types/message";
 import MessageBubble from "./MessageBubble";
 import TypingIndicator from "./TypingIndicator";

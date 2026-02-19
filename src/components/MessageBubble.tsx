@@ -1,3 +1,9 @@
+/**
+ * MessageBubble renders individual message.
+ * Applies styling based on sender (user or bot).
+ * Displays timestamp and optional delivery status.
+ */
+
 import type { Message } from "../types/message";
 
 const MessageBubble = ({ message }: { message: Message }) => {

@@ -1,4 +1,12 @@
-import { useState, useRef, useEffect, KeyboardEvent } from "react";
+/**
+ * MessageInput handles:
+ * - Controlled textarea input
+ * - Auto-expansion
+ * - Enter to send
+ * - Shift+Enter for newline
+ */
+
+import { useState, useRef, useEffect, type KeyboardEvent } from "react";
 
 interface Props {
   onSend: (text: string) => void;
